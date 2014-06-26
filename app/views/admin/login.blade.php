@@ -18,7 +18,7 @@
               <div class="widget-content">
                 <div class="padd">
                   <!-- Login form -->
-                  <form class="form-horizontal" action='http://r209.com/templates/moodstrap/index.html'>
+                  <form class="form-horizontal" action=''>
                     <!-- Email -->
                     <div class="form-group">
                       <label class="control-label col-lg-3" for="inputEmail">Usuario</label>
@@ -53,13 +53,41 @@
                 </div>
               
                 <div class="widget-foot">
-                  Olvido su contrase&ntilde;a? Recuperela<a href="#"> aqui</a>
+                  Olvido su contrase&ntilde;a? Recuperela<a href="#resetPasswordModal" data-dismiss="modal" data-toggle="modal"> aqui</a>
                 </div>
             </div>  
       </div>
     </div>
   </div> 
 </div>
+
+<div style="color:#333;" class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Recordar contrase&ntilde;a</h4>
+        </div>
+        <div class="modal-body row-fluid">
+          <div class="span6">
+            <div class="control-group">
+                <label for="Email">Email</label>
+                <div class="controls">
+                  <input type="text" name="Email" id="Email" class="form-control" style="width:40%" placeholder="correo@ejemplo.com" required>
+                </div>
+                <span class="help-block"><small>Ingrese el correo con el que se registro.</small></span>
+                <span id="errorMessage" style="color:#F00"></span>
+            </div>
+          </div>
+        </div>
+         
+        <div class="modal-footer pull-center">
+          <button type="button" data-dismiss="modal" class="btn btn-default">Cancelar</button>
+          <button type="button" id="resetPassword" class="btn btn-success">Reset Password</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 @stop
 
