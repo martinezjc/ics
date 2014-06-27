@@ -18,4 +18,6 @@ Route::get('/', function()
 
 Route::get('admin/login', 'AccountController@showLogin');
 
+# administracion articulos (noticias)
 Route::get('admin/articulos', 'ArticleController@index');
+Route::get('admin/articulos/crear', 'ArticleController@create');

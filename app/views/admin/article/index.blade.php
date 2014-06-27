@@ -41,9 +41,14 @@
 	    <div class="matter">
         <div class="container">
           <!-- Table -->
-            <div class="row">
-              <div class="col-md-12">
-             <div class="widget">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{action('ArticleController@create')}}" class="btn btn-primary">Crear un nuevo &aacute;rticulo</a>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-md-12">
+              <div class="widget">
                 <div class="widget-head">
                   <div class="pull-left"></div>
                   <div class="widget-icons pull-right">
@@ -60,39 +65,43 @@
                       <thead>
                         <tr>
                           <th>#</th>
-                          <th>Name</th>
-                          <th>Location</th>
-                          <th>Date</th>
-                          <th>Type</th>
-                          <th>Status</th>
+                          <th>Titulo</th>
+                          <th>Categor&iacute;a</th>
+                          <th>Fecha Creaci&oacute;n</th>
+                          <th>Estado</th>
                           <th>Control</th>
                         </tr>
                       </thead>
                       <tbody>
+                      
+                      @if ( $articles )
+                        @foreach($articles as $article => $articleInfo)
+                          <tr>
+                            <td>{{ ++ $article }}</td>
+                            <td>{{ $articleInfo->Titulo }}</td>
+                            <td>{{ $articleInfo->Categoria }}</td>
+                            <td>{{ $articleInfo->FechaCreacion }}</td>
+                            <td><span class="label label-success">Publicado</span></td>
+                            <td>
 
-                        <tr>
-                          <td>1</td>
-                          <td>John Doe</td>
-                          <td>Norway</td>
-                          <td>23/12/2012</td>
-                          <td>Paid</td>
-                          <td><span class="label label-success">Active</span></td>
-                          <td>
+                                <button class="btn btn-xs btn-success"><i class="fa fa-check"></i> </button>
+                                <button class="btn btn-xs btn-warning"><i class="fa fa-pencil"></i> </button>
+                                <button class="btn btn-xs btn-danger"><i class="fa fa-times"></i> </button>
+                            
+                            </td>
+                          </tr>
+                          @endforeach
+                        @else
+                          <tr>
+                            <td colspan="6" style="text-align:center">No hay articulos por mostrar</td>
+                          </tr>
+                        @endif
 
-                              <button class="btn btn-xs btn-success"><i class="fa fa-check"></i> </button>
-                              <button class="btn btn-xs btn-warning"><i class="fa fa-pencil"></i> </button>
-                              <button class="btn btn-xs btn-danger"><i class="fa fa-times"></i> </button>
-                          
-                          </td>
-                        </tr>
-
-
-                        <tr>
+                        <!-- <tr>
                           <td>2</td>
                           <td>Jane Doe</td>
                           <td>USA</td>
                           <td>13/02/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -108,7 +117,6 @@
                           <td>Yoshi Morimoto</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -126,7 +134,6 @@
                           <td>Chuck Bartowski</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -144,7 +151,6 @@
                           <td>Cody Federer</td>
                           <td>Singapore</td>
                           <td>13/32/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -161,7 +167,6 @@
                           <td>Alves Buraya</td>
                           <td>Norway</td>
                           <td>17/12/2011</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -178,7 +183,6 @@
                           <td>Carlos Santana</td>
                           <td>Spain</td>
                           <td>13/02/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -194,7 +198,6 @@
                           <td>John Lennon</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -212,7 +215,6 @@
                           <td>Lana Del Rey</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -230,7 +232,6 @@
                           <td>John Lennon</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -248,7 +249,6 @@
                           <td>Lana Del Rey</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -266,7 +266,6 @@
                           <td>Tom Jones</td>
                           <td>Singapore</td>
                           <td>13/32/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -283,7 +282,6 @@
                           <td>John Doe</td>
                           <td>Norway</td>
                           <td>23/12/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -300,7 +298,6 @@
                           <td>Jane Doe</td>
                           <td>USA</td>
                           <td>13/02/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -316,7 +313,6 @@
                           <td>Yoshi Morimoto</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -334,7 +330,6 @@
                           <td>Chuck Bartowski</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -352,7 +347,6 @@
                           <td>Cody Federer</td>
                           <td>Singapore</td>
                           <td>13/32/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -369,7 +363,6 @@
                           <td>Alves Buraya</td>
                           <td>Norway</td>
                           <td>17/12/2011</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -386,7 +379,6 @@
                           <td>Carlos Santana</td>
                           <td>Spain</td>
                           <td>13/02/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -402,7 +394,6 @@
                           <td>John Lennon</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -420,7 +411,6 @@
                           <td>Lana Del Rey</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -438,7 +428,6 @@
                           <td>John Lennon</td>
                           <td>Japan</td>
                           <td>12/03/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -456,7 +445,6 @@
                           <td>Lana Del Rey</td>
                           <td>Bangkok</td>
                           <td>03/11/2012</td>
-                          <td>Paid</td>
                           <td><span class="label label-success">Active</span></td>
                           <td>
 
@@ -474,7 +462,6 @@
                           <td>Tom Jones</td>
                           <td>Singapore</td>
                           <td>13/32/2012</td>
-                          <td>Free</td>
                           <td><span class="label label-danger">Banned</span></td>
                           <td>
 
@@ -485,7 +472,7 @@
                             </div>
 
                           </td>
-                        </tr>                                                            
+                        </tr>  -->                                                          
 
                       </tbody>
                     </table>
