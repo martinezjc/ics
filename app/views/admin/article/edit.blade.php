@@ -58,24 +58,24 @@
                     
                     <div class="form-group">
                       <label for="titulo">T&iacute;tulo</label>
-                      <input type="text" id="titulo" name="titulo" class="validate[required] form-control placeholder col-lg-8" placeholder="Ingrese el titulo">
+                      <input type="text" id="titulo" name="titulo" class="validate[required] form-control placeholder col-lg-8" value="{{ $article->Titulo }}" placeholder="Ingrese el titulo">
                     </div>
                     <br/>
                     <div class="textarea">
                       <label for="introduccion">Intro</label>
-                      <input type="text" id="introduccion" name="introduccion" class="form-control placeholder col-lg-8" placeholder="Ingrese la introduccion del articulo">
+                      <input type="text" id="introduccion" name="introduccion" class="form-control placeholder col-lg-8" value="{{ $article->Introduccion }}" placeholder="Ingrese la introduccion del articulo">
                     </div>
 
                     <div class="form-group">
                       <label for="resumen">Resumen</label>
-                      <textarea name="resumen" id="resumen" class="form-control col-lg-12"></textarea>
+                      <textarea name="resumen" id="resumen" value="{{ $article->Resumen }}" class="form-control col-lg-12"></textarea>
                     </div>
                     
                     <div class="clearfix"></div>
                     <button class="btn btn-default"><i class="fa fa-camera"></i> Agregar multimedia</button>
                     <div class="text-area">
                         <!-- Add the "cleditor" to textarea to add CLeditor -->
-                        <textarea class="cleditor" name="texto" id="texto"></textarea>
+                        <textarea class="cleditor" name="texto" id="texto">{{ $article->Texto }}</textarea>
 
                     </div>
 
@@ -159,7 +159,7 @@
                         <select name="idCategoria" id="idCategoria" class="form-control">
 	                    @if ($categories)
 		                    @foreach($categories as $category => $categoryInfo)
-	                          <option value="{{ $categoryInfo->IdCategoria }}">{{ $categoryInfo->Categoria }}</option>
+	                          <option value="{{ $categoryInfo->IdCategoria }}" @if( $categoryInfo->IdCategoria == $article->IdCategoria ) selected="selected" @endif >{{ $categoryInfo->Categoria }}</option>
 		                    @endforeach
 		                  @else
 	                        <option value="0">No hay categorias</option> 
@@ -170,21 +170,21 @@
                       <div class="form-group">
                       	<label for="posicion">Ubicaci&oacute;n</label>
                       	<select name="posicion" id="posicion" class="form-control">
-                      		<option value="slider">Slideshow</option>
+                      		<option value="slider" @if( $article->Posicion == 'slider' ) selected="selected" @endif >Slideshow</option>
                       	</select>
                       </div>
 
                       <div class="form-group">
                         <label for="estado">Estado</label>
                         <select name="estado" id="estado" class="form-control">
-                          <option value="D">Borrador</option>
-                          <option value="P">Publicado</option>
+                          <option value="D" @if( $article->Estado == 'D' ) selected="selected" @endif >Borrador</option>
+                          <option value="P" @if( $article->Estado == 'P' ) selected="selected" @endif >Publicado</option>
                         </select>
                       </div>
                       
                       <div class="form-group">
                         <label for="tags">Etiquetas</label>
-                        <input class="form-control col-lg-12" id="tags" name="tags" type="text" placeholder="Etiquetas">
+                        <input class="form-control col-lg-12" id="tags" name="tags" value="{{ $article->Etiquetas }}" type="text" placeholder="Etiquetas">
                       </div>
 					            <div class="buttons">
                         <button id="saveArticle" class="btn btn-primary">Guardar</button> 

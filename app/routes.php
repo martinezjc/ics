@@ -21,3 +21,6 @@ Route::get('admin/login', 'AccountController@showLogin');
 # administracion articulos (noticias)
 Route::get('admin/articulos', 'ArticleController@index');
 Route::get('admin/articulos/crear', 'ArticleController@create');
+Route::get('admin/articulos/edit/{id}', 'ArticleController@edit');
+
+Route::get('admin/articulos/saveArticle', 'ArticleController@save');
