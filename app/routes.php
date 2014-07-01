@@ -24,3 +24,4 @@ Route::get('admin/articulos/crear', 'ArticleController@create');
 Route::get('admin/articulos/edit/{id}', 'ArticleController@edit');
 
 Route::get('admin/articulos/saveArticle', 'ArticleController@save');
+Route::get('admin/articulos/edit/updateArticle', 'ArticleController@update');

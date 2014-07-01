@@ -186,9 +186,10 @@
                         <label for="tags">Etiquetas</label>
                         <input class="form-control col-lg-12" id="tags" name="tags" value="{{ $article->Etiquetas }}" type="text" placeholder="Etiquetas">
                       </div>
+                      <input type="hidden" id="idArticulo" value="{{ $article->IdArticulo }}">
 					            <div class="buttons">
-                        <button id="saveArticle" class="btn btn-primary">Guardar</button> 
-                        <button class="btn btn-default">Cancelar</button>
+                        <button id="updateArticle" class="btn btn-primary">Guardar</button> 
+                        <a class="btn btn-default" href="{{ action('ArticleController@index') }}">Cancelar</a>
                         <!-- <button id="deleteArticle" class="btn btn-danger">Eliminar</button> -->
 					            </div>
 

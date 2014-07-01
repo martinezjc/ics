@@ -3,7 +3,9 @@ class ArticleController extends Controller
 {
 	public function index()
 	{
-        $articles = DB::table('articulo')->get();
+        $articles = DB::table('articulo')
+                    ->leftJoin('categoria', 'articulo.IdCategoria', '=', 'categoria.IdCategoria')
+                    ->get();
         
 
 		return View::make('admin.article.index')
@@ -60,6 +62,36 @@ class ArticleController extends Controller
                     ->with('title', 'Editar articulo')
                     ->with('categories', $categories)
                     ->with('article', $article);
+	}
+
+	public function update()
+	{
+		$idArticulo = Input::get('idArticulo');
+		$title = Input::get('titulo');
+		$introduccion = Input::get('introduccion');
+		$resumen = Input::get('resumen');
+		$texto = Input::get('texto');
+		$idCategoria = Input::get('idCategoria');
+		$posicion = Input::get('posicion');
+		$estado = Input::get('estado');
+		$etiquetas = Input::get('etiquetas');
+		$idUsuario = Input::get('idUsuario');
+
+		$updated = DB::table('articulo')
+		               ->where('IdArticulo', '=', $idArticulo)
+		               ->update(array(
+		              	'Titulo' => $title,
+		              	'IdCategoria' => $idCategoria,
+		              	'IdUsuario' => $idUsuario,
+		              	'Introduccion' => $introduccion,
+		              	'Resumen' => $resumen,
+		              	'Texto' => $texto,
+		              	'Posicion' => $posicion,
+		              	'Etiquetas' => $etiquetas,
+		              	'Estado' => $estado
+		              	));
+
+		return $updated ? 'registro actualizado' : 'Error de actualizacion';
 	}
 }
 ?>

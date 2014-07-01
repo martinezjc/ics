@@ -85,7 +85,7 @@
                             <td>
 
                                 <button class="btn btn-xs btn-success"><i class="fa fa-check"></i> </button>
-                                <button class="btn btn-xs btn-warning"><i class="fa fa-pencil"></i> </button>
+                                <a class="btn btn-xs btn-warning" href="{{ action('ArticleController@edit', array('id' => $articleInfo->IdArticulo) ); }}"><i class="fa fa-pencil"></i> </a>
                                 <button class="btn btn-xs btn-danger"><i class="fa fa-times"></i> </button>
                             
                             </td>
