@@ -16,11 +16,9 @@ $('#saveArticle').click(function(){
     });
 });
 
-//Route::get('admin/articulos/updateArticle', 'ArticleController@update');
-
 $('#updateArticle').click( function() {
     var parameters = {
-        idArticulo : $('idArticulo').val(),
+        idArticulo : $('#idArticulo').val(),
         titulo : $('#titulo').val(),
         introduccion : $('#introduccion').val(),
         resumen : $('#resumen').val(),

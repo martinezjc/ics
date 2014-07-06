@@ -13,7 +13,7 @@
   <!-- Stylesheets -->
   {{ HTML::style('packages/webkit/css/bootstrap.css'); }}
   {{ HTML::style('packages/webkit/css/font-awesome.css'); }}
-  {{ HTML::style('packages/webkit/css/style.css'); }}
+  {{ HTML::style('packages/webkit/css/admin/style.css'); }}
 
   <!-- If it need some extra styles -->
   @yield("styles")

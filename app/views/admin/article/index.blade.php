@@ -1,18 +1,18 @@
 @extends('layouts.admin')
 
 @section('styles')
-{{ HTML::style('packages/webkit/css/jquery-ui-1.9.2.custom.min.css'); }}
-{{ HTML::style('packages/webkit/css/fullcalendar.css'); }}
-{{ HTML::style('packages/webkit/css/prettyPhoto.css'); }}
-{{ HTML::style('packages/webkit/css/rateit.css'); }}
-{{ HTML::style('packages/webkit/css/bootstrap-datetimepicker.min.css'); }}
-{{ HTML::style('packages/webkit/css/jquery.cleditor.css'); }}
-{{ HTML::style('packages/webkit/css/uniform.default.css'); }}
-{{ HTML::style('packages/webkit/css/daterangepicker-bs3.css'); }}
-{{ HTML::style('packages/webkit/css/bootstrap-switch.css'); }}
-{{ HTML::style('packages/webkit/js/datatables/css/dataTables.bootstrap.css'); }}
-{{ HTML::style('packages/webkit/css/widgets.css'); }}
-{{ HTML::style('packages/webkit/css/jquery.gritter.css'); }}
+{{ HTML::style('packages/webkit/css/admin/jquery-ui-1.9.2.custom.min.css'); }}
+{{ HTML::style('packages/webkit/css/admin/fullcalendar.css'); }}
+{{ HTML::style('packages/webkit/css/admin/prettyPhoto.css'); }}
+{{ HTML::style('packages/webkit/css/admin/rateit.css'); }}
+{{ HTML::style('packages/webkit/css/admin/bootstrap-datetimepicker.min.css'); }}
+{{ HTML::style('packages/webkit/css/admin/jquery.cleditor.css'); }}
+{{ HTML::style('packages/webkit/css/admin/uniform.default.css'); }}
+{{ HTML::style('packages/webkit/css/admin/daterangepicker-bs3.css'); }}
+{{ HTML::style('packages/webkit/css/admin/bootstrap-switch.css'); }}
+{{ HTML::style('packages/webkit/js/admin/datatables/css/dataTables.bootstrap.css'); }}
+{{ HTML::style('packages/webkit/css/admin/widgets.css'); }}
+{{ HTML::style('packages/webkit/css/admin/jquery.gritter.css'); }}
 @stop
 
 @section('content')
@@ -517,36 +517,36 @@
 @stop
 
 @section('scripts')
-{{ HTML::script('packages/webkit/js/jquery-ui-1.9.2.custom.min.js'); }} <!-- jQuery UI -->
-{{ HTML::script('packages/webkit/js/fullcalendar.min.js'); }} <!-- Full Google Calendar - Calendar -->
-{{ HTML::script('packages/webkit/js/jquery.rateit.min.js'); }} <!-- RateIt - Star rating -->
-{{ HTML::script('packages/webkit/js/jquery.prettyPhoto.js'); }} <!-- prettyPhoto -->
+{{ HTML::script('packages/webkit/js/admin/jquery-ui-1.9.2.custom.min.js'); }} <!-- jQuery UI -->
+{{ HTML::script('packages/webkit/js/admin/fullcalendar.min.js'); }} <!-- Full Google Calendar - Calendar -->
+{{ HTML::script('packages/webkit/js/admin/jquery.rateit.min.js'); }} <!-- RateIt - Star rating -->
+{{ HTML::script('packages/webkit/js/admin/jquery.prettyPhoto.js'); }} <!-- prettyPhoto -->
 
 <!-- jQuery Flot -->
-{{ HTML::script('packages/webkit/js/excanvas.min.js'); }}
-{{ HTML::script('packages/webkit/js/jquery.flot.js'); }}
-{{ HTML::script('packages/webkit/js/jquery.flot.resize.js'); }}
-{{ HTML::script('packages/webkit/js/jquery.flot.pie.js'); }}
-{{ HTML::script('packages/webkit/js/jquery.flot.stack.js'); }}
+{{ HTML::script('packages/webkit/js/admin/excanvas.min.js'); }}
+{{ HTML::script('packages/webkit/js/admin/jquery.flot.js'); }}
+{{ HTML::script('packages/webkit/js/admin/jquery.flot.resize.js'); }}
+{{ HTML::script('packages/webkit/js/admin/jquery.flot.pie.js'); }}
+{{ HTML::script('packages/webkit/js/admin/jquery.flot.stack.js'); }}
 
 <!-- jQuery Notification - Noty -->
-{{ HTML::script('packages/webkit/js/jquery.noty.js'); }} <!-- jQuery Notify -->
-{{ HTML::script('packages/webkit/js/themes/default.js'); }} <!-- jQuery Notify -->
-{{ HTML::script('packages/webkit/js/layouts/bottom.js'); }} <!-- jQuery Notify -->
-{{ HTML::script('packages/webkit/js/layouts/topRight.js'); }} <!-- jQuery Notify -->
-{{ HTML::script('packages/webkit/js/layouts/top.js'); }} <!-- jQuery Notify -->
+{{ HTML::script('packages/webkit/js/admin/jquery.noty.js'); }} <!-- jQuery Notify -->
+{{ HTML::script('packages/webkit/js/admin/themes/default.js'); }} <!-- jQuery Notify -->
+{{ HTML::script('packages/webkit/js/admin/layouts/bottom.js'); }} <!-- jQuery Notify -->
+{{ HTML::script('packages/webkit/js/admin/layouts/topRight.js'); }} <!-- jQuery Notify -->
+{{ HTML::script('packages/webkit/js/admin/layouts/top.js'); }} <!-- jQuery Notify -->
 
-{{ HTML::script('packages/webkit/js/datatables/js/jquery.dataTables.js'); }}
+{{ HTML::script('packages/webkit/js/admin/datatables/js/jquery.dataTables.js'); }}
 
-{{ HTML::script('packages/webkit/js/sparklines.js'); }} <!-- Sparklines -->
-{{ HTML::script('packages/webkit/js/jquery.cleditor.min.js'); }} <!-- CLEditor -->
-{{ HTML::script('packages/webkit/js/bootstrap-datetimepicker.min.js'); }} <!-- Date picker -->
-{{ HTML::script('packages/webkit/js/jquery.uniform.min.js'); }} <!-- jQuery Uniform -->
-{{ HTML::script('packages/webkit/js/jquery.slimscroll.min.js'); }} <!-- jQuery SlimScroll -->
-{{ HTML::script('packages/webkit/js/bootstrap-switch.min.js'); }} <!-- Bootstrap Toggle -->
-{{ HTML::script('packages/webkit/js/filter.js'); }} <!-- Filter for support page -->
-{{ HTML::script('packages/webkit/js/custom.js'); }} <!-- Custom codes -->
-{{ HTML::script('packages/webkit/js/charts.js'); }} <!-- Charts & Graphs -->
+{{ HTML::script('packages/webkit/js/admin/sparklines.js'); }} <!-- Sparklines -->
+{{ HTML::script('packages/webkit/js/admin/jquery.cleditor.min.js'); }} <!-- CLEditor -->
+{{ HTML::script('packages/webkit/js/admin/bootstrap-datetimepicker.min.js'); }} <!-- Date picker -->
+{{ HTML::script('packages/webkit/js/admin/jquery.uniform.min.js'); }} <!-- jQuery Uniform -->
+{{ HTML::script('packages/webkit/js/admin/jquery.slimscroll.min.js'); }} <!-- jQuery SlimScroll -->
+{{ HTML::script('packages/webkit/js/admin/bootstrap-switch.min.js'); }} <!-- Bootstrap Toggle -->
+{{ HTML::script('packages/webkit/js/admin/filter.js'); }} <!-- Filter for support page -->
+{{ HTML::script('packages/webkit/js/admin/custom.js'); }} <!-- Custom codes -->
+{{ HTML::script('packages/webkit/js/admin/charts.js'); }} <!-- Charts & Graphs -->
 
 <script>
 $(document).ready(function() {
