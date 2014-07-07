@@ -93,5 +93,10 @@ class ArticleController extends Controller
 
 		return $updated ? 'registro actualizado' : 'Error de actualizacion';
 	}
+
+	public function showArticle()
+	{
+		return View::make('site.article');
+	}
 }
 ?>

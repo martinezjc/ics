@@ -11,6 +11,7 @@
 {{ HTML::style('packages/webkit/css/common.css'); }}
 {{ HTML::style('packages/webkit/css/style.css'); }}
 {{ HTML::style('packages/webkit/css/blue.css'); }}
+{{ HTML::style('packages/webkit/css/notosans.css'); }}
 {{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Noto+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700'); }}
 {{ HTML::style('packages/webkit/css/responsive.css'); }}
 @yield('styles')
@@ -147,30 +148,19 @@
 <footer>
   <div class="container">
     <div class="widget">
-      <h3 class="footer-title">Follow <span>Us</span></h3>
+      <h3 class="footer-title">Siguenos</h3>
       <div class="follow">
         <ul>
           <li><a href="default.htm" title=""><i class="theme-icon twitter"></i></a></li>
           <li><a href="default.htm" title=""><i class="theme-icon facebook"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon skype"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon linkedin"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon flickr"></i></a></li>
           <li><a href="default.htm" title=""><i class="theme-icon youtube"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon dropjack"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon dribble"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon vimeo"></i></a></li>
           <li><a href="default.htm" title=""><i class="theme-icon rss"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon tumbler"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon share"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon behance"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon audioscrobble"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon yahoo"></i></a></li>
         </ul>
         <p>Lorem Ipsum is simply dummy text of the prinwng and typesetting industry.</p>
       </div>
     </div> <!-- Follow Us -->
     <div class="widget">
-      <h3 class="footer-title">Our <span>Location</span></h3>
+      <h3 class="footer-title">D&oacute;nde nos encontramos</h3>
       <div class="location">
         <!-- <iframe width="100" height="150" src="http://maps.google.com/@ie=UTF8&ll=10.487812,-22.675781&spn=45.061776,86.572266&t=m&z=4&output=embed"></iframe> -->
         <span class="map-shadow"></span>
@@ -182,18 +172,18 @@
       </div>
     </div> <!-- Location -->
     <div class="widget">
-      <h3 class="footer-title">Contact <span>Us</span></h3>
+      <h3 class="footer-title">Contactenos</h3>
       <div class="contact-form">
         <form>
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Nombre">
           <input type="email" placeholder="Email">
-          <textarea rows="4" placeholder="Message"></textarea>
-          <input type="Submit" value="Submit" class="submit">
+          <textarea rows="4" placeholder="Mensaje"></textarea>
+          <input type="Submit" value="Enviar" class="submit">
         </form>
       </div>
     </div> <!-- Contact Us Form -->
     <div class="widget">
-      <h3 class="footer-title">Recent <span>From Flickr</span></h3>
+      <h3 class="footer-title">Galer&iacute;a</h3>
 		<div class="flickr-images">
 			<a href="#"><img src="img/resource/flickr1.jpg" alt="" /></a>
 			<a href="#"><img src="img/resource/flickr2.jpg" alt="" /></a>
@@ -211,12 +201,12 @@
 
 <div class="bottom-footer">
   <div class="container">
-    <p>"@ All Rights Reserved" by Webinane A <a href="http://www.webinane.com/default.htm" title="">Web Design Company</a></p>
+    <p>Todos los derechos reservados @ 2014 <a href="http://www.ics.com.ni" title="">Instituto de Ciencias de la Investigaci&oacute;n (ICS)</a></p>
     <ul>
-      <li><a href="index.html" title="">Home</a></li>
-      <li><a href="doctors-timetable.html" title="">Our Doctors</a></li>
-      <li><a href="service.html" title="">Services</a></li>
-      <li><a href="#" title="">Privacy Policy</a></li>
+      <li><a href="/" title="">Inicio</a></li>
+      <li><a href="doctors-timetable.html" title=""></a></li>
+      <li><a href="service.html" title=""></a></li>
+      <li><a href="#" title=""></a></li>
     </ul>
   </div>
 </div><!-- Bottom Footer Strip -->

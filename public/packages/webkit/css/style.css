@@ -48,7 +48,7 @@
 body {
 	margin:0;
 	overflow-x:hidden;
-	color:#858585;
+	color:#000000;
 	font-family:noto sans;
 }
 
@@ -1273,6 +1273,7 @@ section {
 	position:relative;
 	z-index:1;
 }
+
 header select {
 	display:none;
 	position:relative;
@@ -1286,36 +1287,39 @@ header select {
 	position:relative;
 	z-index:1;
 }
+
 #menu:before {
 	height:100%;
 	width:218px;
 	content:"";
 	background:url("../img/menu-design.png") no-repeat 0 0;
-
 	position:absolute;
 	left:-218px;
 	top:4px;
 }
+
 header .container:after {
 	height:120px;
 	width:50%;
 	z-index:0;
 	background:none repeat 0 0 #F7F8FA;
 	content:"";
-	
 	position:absolute;
 	right:0;
 }
+
 #menu ul {
 	margin:0;
 	float:left;
 	list-style:none outside none;
 }
+
 #menu > ul > li{
 	float:left;
 	position:relative;
 	margin-top:58px;
 }
+
 #menu li a {
 	padding:0 10px 54px;
 	float:left;
@@ -1324,21 +1328,23 @@ header .container:after {
 	line-height:10px;
 	text-decoration:none;
 	background:url("../img/menu-borders.png") no-repeat 0 -8px;
-
 	-webkit-transition:padding 0.5s ease 0s;
 	-moz-transition:padding 0.5s ease 0s;
 	-ms-transition:padding 0.5s ease 0s;
 	-o-transition:padding 0.5s ease 0s;
 	transition:padding 0.5s ease 0s;
 }
+
 #menu li:first-child a {
 	background:none;
 }
+
 header {
 	float:left;
 	width:100%;
 	border-bottom:2px solid;
 }
+
 #menu li:hover .drop-down {
 	left:0px;
 	opacity:1;
@@ -5928,7 +5934,7 @@ label {
 
 
 .single-post-desc {
-	color:#959595;
+	color:#000000;
 	display:inline-block;
 	font-size:13px;
 	line-height:20px;

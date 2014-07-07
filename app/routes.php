@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@showHome');
+Route::get('/articulo', 'ArticleController@showArticle');
 
 Route::get('admin/login', 'AccountController@showLogin');
 
