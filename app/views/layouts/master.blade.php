@@ -12,7 +12,7 @@
 {{ HTML::style('packages/webkit/css/style.css'); }}
 {{ HTML::style('packages/webkit/css/blue.css'); }}
 {{ HTML::style('packages/webkit/css/notosans.css'); }}
-{{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Noto+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700'); }}
+{{-- HTML::style('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Noto+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700'); --}}
 {{ HTML::style('packages/webkit/css/responsive.css'); }}
 @yield('styles')
 <!--[if lt IE 9]>
