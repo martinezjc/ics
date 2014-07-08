@@ -54,6 +54,48 @@
   </div>
 </div><!-- Slider Area -->
 
+<section id="simple-services" class="pattern4">
+	<div class="container">
+		<div>
+			<div class="service-box span4">
+              <ul>
+              	<li><h2><i class="fa fa-info-circle"></i> Acerca del ICS</h2></li>
+              	<li>Misi&oacute;n, visi&oacute;n y objetivos</li>
+              	<li>Historia</li>
+              	<li>Organizaci&oacute;n y liderazgo</li>
+              	<li>Pol&iacute;ticas y normativas</li>
+              	<li>D&oacute;nde encontrarnos</li>
+              	<li>Trabaja con nosotros</li>
+              	<li>Ayuda y donaciones</li>
+              </ul>
+			</div>
+			<div class="service-box span4">
+			  <ul>
+			  	<li><h2><i class="fa fa-flask"></i> Investigaci&oacute;n</h2></li>
+			  	<li>L&iacute;nea y grupos</li>
+			  	<li>Proyectos</li>
+			  	<li>Redes</li>
+			  	<li>Innovaci&oacute;n</li>
+			  	<li>Comite de &eacute;tica</li>
+			  	<li>Publicaciones</li>
+			  	<li>Serie de "Seminarios de Investigaci&oacute;n"</li>
+			  </ul>
+			</div>
+			<div class="service-box span4">
+			  <ul>
+			  	<li><h2><i class="fa fa-graduation-cap"></i> Oferta acad&eacute;mica</h2></li>
+			  	<li>Carreras t&eacute;cnicas</li>
+			  	<li>Grado</li>
+			  	<li>Posgrado</li>
+			  	<li>Cursos libres</li>
+			  	<li>Estudios de intercambio</li>
+			  	<li>Pasant&iacute;a y entrenamientos</li>
+			  	<li>Programa Internacional</li>
+			  </ul>
+			</div>	
+		</div>
+	</div>
+</section>
 
 <section id="serve" class="pattern2">
 	<div class="title">
@@ -835,81 +877,6 @@
 </section>
 
 </div>
-<footer>
-  <div class="container">
-    <div class="widget">
-      <h3 class="footer-title">Follow <span>Us</span></h3>
-      <div class="follow">
-        <ul>
-          <li><a href="default.htm" title=""><i class="theme-icon twitter"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon facebook"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon skype"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon linkedin"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon flickr"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon youtube"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon dropjack"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon dribble"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon vimeo"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon rss"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon tumbler"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon share"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon behance"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon audioscrobble"></i></a></li>
-          <li><a href="default.htm" title=""><i class="theme-icon yahoo"></i></a></li>
-        </ul>
-        <p>Lorem Ipsum is simply dummy text of the prinwng and typesetting industry.</p>
-      </div>
-    </div> <!-- Follow Us -->
-    <div class="widget">
-      <h3 class="footer-title">Our <span>Location</span></h3>
-      <div class="location">
-        <!-- <iframe width="100" height="150" src="http://maps.google.com/@ie=UTF8&ll=10.487812,-22.675781&spn=45.061776,86.572266&t=m&z=4&output=embed"></iframe> -->
-        <span class="map-shadow"></span>
-        <ul>
-          <li><i class="theme-icon email"></i><span class="source">by e-mail;</span> <span class="detail">info@yoursite.com</span> </li>
-          <li><i class="theme-icon phone"></i><span class="source">by phone;</span> <span class="detail">+900-78601</span> </li>
-          <li><i class="theme-icon home"></i><span class="source">Address;</span> <span class="detail">123, Seward Street, Os kla Home City, USA</span> </li>
-        </ul>
-      </div>
-    </div> <!-- Location -->
-    <div class="widget">
-      <h3 class="footer-title">Contact <span>Us</span></h3>
-      <div class="contact-form">
-        <form>
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <textarea rows="4" placeholder="Message"></textarea>
-          <input type="Submit" value="Submit" class="submit">
-        </form>
-      </div>
-    </div> <!-- Contact Us Form -->
-    <div class="widget">
-      <h3 class="footer-title">Recent <span>From Flickr</span></h3>
-		<div class="flickr-images">
-			<a href="#"><img src="img/resource/flickr1.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr2.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr3.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr4.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr5.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr6.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr7.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr8.jpg" alt="" /></a>
-			<a href="#"><img src="img/resource/flickr9.jpg" alt="" /></a>
-		</div>
-	</div>
-  </div>
-</footer><!-- Footer -->
 
-<div class="bottom-footer">
-  <div class="container">
-    <p>"@ All Rights Reserved" by Webinane A <a href="http://www.webinane.com/default.htm" title="">Web Design Company</a></p>
-    <ul>
-      <li><a href="index.html" title="">Home</a></li>
-      <li><a href="doctors-timetable.html" title="">Our Doctors</a></li>
-      <li><a href="service.html" title="">Services</a></li>
-      <li><a href="#" title="">Privacy Policy</a></li>
-    </ul>
-  </div>
-</div><!-- Bottom Footer Strip -->
 
 @stop

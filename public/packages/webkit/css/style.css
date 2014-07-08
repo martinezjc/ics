@@ -1018,9 +1018,19 @@ section {
     border-bottom:1px solid #BCBCBC;
     padding:0 0 57px;
 }
+
+#simple-services ul li {
+	list-style: none;
+	color: #3798DC;
+}
+
 #simple-services .container > div {
     margin-left:-30px;
 }
+.title-link {
+	font-size: 14px;
+}
+
 .service-box {
     margin-top:31px;
 }
@@ -2157,11 +2167,15 @@ header {
 	float:left;
 	border-bottom:1px solid #BCBCBC;
 }
-.pattern1{
+.pattern1 {
 	background:url("../img/pattern1.png") repeat 0 0 ;
 }
-.pattern2{
+.pattern2 {
 	background:url("../img/pattern2.jpg") repeat 0 0 ;
+}
+
+.pattern4 {
+	
 }
 
 #slider2 .overview li {

@@ -11,6 +11,7 @@
 {{ HTML::style('packages/webkit/css/common.css'); }}
 {{ HTML::style('packages/webkit/css/style.css'); }}
 {{ HTML::style('packages/webkit/css/blue.css'); }}
+{{ HTML::style('packages/webkit/css/font-awesome.min.css'); }}
 {{ HTML::style('packages/webkit/css/notosans.css'); }}
 {{-- HTML::style('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Noto+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700'); --}}
 {{ HTML::style('packages/webkit/css/responsive.css'); }}
@@ -38,7 +39,7 @@
     
 	<div id="menu">
 		<ul>
-			<li><a href="index.html" title="">INICIO</a></li>
+			<li><a href="/" title="">INICIO</a></li>
 			<li><a href="#" title="">GALLERY</a>
 				<ul class="drop-down">
 					<li><a href="gallery-two-column-wos.html" title="">2 Column Without SideBar</a></li>

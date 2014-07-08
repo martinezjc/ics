@@ -6,6 +6,7 @@
   <div class="container">
     <div class="left-side-content span8">
       <div class="post-image">
+      <h1>Lorem ipsum dous mollis nisi erat porttitor</h1>
         <img src="img/resource/banner2.jpg" alt="" />
       </div><!-- Post Image -->
 					
@@ -13,7 +14,7 @@
         <div class="single-post-date">
             2 <span>Julio 2014</span> 
           </div><!-- Date -->
-        <h1>Lorem ipsum dous mollis nisi erat porttitor</h1>
+        
         <div class="single-post-meta">
           <!-- <span><i class="theme-icon user-small"></i>Posted By; <a href="#" title="">Admin</a></span> -->
           <span><i class="theme-icon post-cat2"></i>Categor&iacute;a: <a href="#" title="">General, Noticias</a></span>
@@ -28,16 +29,6 @@
           </div>
         </div><!-- Post Meta -->
       <!-- </div> -->
-      <p class="single-post-desc">Duis mollis, est non coor&iacute;lauctus, nisi erat porttitor liguNoticiasget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-</p>
-      <p class="single-post-desc">Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus poisuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id ielit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
-    	<blockquote>" The fact is, that among his hunters at least, the whale would by all hands be considered a noble dish, were there not so much of him; but when you come to sit down before a meat-pie nearly one hundred feet long, it takes away your appetite "</blockquote>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
-    	<p class="single-post-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
       
 			<div class="tag-clouds">
         <h4>Etiquetas: </h4>
