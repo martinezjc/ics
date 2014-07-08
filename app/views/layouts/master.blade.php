@@ -40,74 +40,43 @@
 	<div id="menu">
 		<ul>
 			<li><a href="/" title="">INICIO</a></li>
-			<li><a href="#" title="">GALLERY</a>
+			<li><a href="#" title="">VINCULOS CON LA COMUNIDAD</a>
 				<ul class="drop-down">
-					<li><a href="gallery-two-column-wos.html" title="">2 Column Without SideBar</a></li>
-					<li><a href="gallery-three-column-wos.html" title="">3 Column Without Sidebar</a></li>
-					<li><a href="gallery-four-column-wos.html" title="">4 Column Without Sidebar</a></li>
-					<li class="double-drop"><a href="#" title="">Gallery With Left Sidebar</a>
+					<li><a href="gallery-two-column-wos.html" title="">Clinica universitaria integral</a></li>
+					<li><a href="gallery-three-column-wos.html" title="">Clinica m&oacute;vil comunitaria</a></li>
+					<li class="double-drop"><a href="#" title="">Programas de promoci&oacute;n y educaci&oacute;n para la salud</a>
 						<ul class="second drop-down">
-							<li><a href="gallery-one-column-left-sidebar.html" title="">1 Column</a></li>
-							<li><a href="gallery-two-column-left-sidebar.html" title="">2 Column</a></li>
+							<li><a href="gallery-one-column-left-sidebar.html" title="">Social y seguridad en el trabajo</a></li>
+							<li><a href="gallery-two-column-left-sidebar.html" title="">Salud y bienestar en la tercera edad</a></li>
+							<li><a href="">Salud y actividad f&iacute;sica</a></li>
+							<li><a href="">Salud y discapacidad</a></li>
+							<li><a href="">Club de vida saludable</a></li>
 						</ul> <!-- Double Drop Down Menu -->
 					</li><!-- Gallery With Left Sidebar -->
-					<li class="double-drop"><a href="#" title="">Gallery With Right Sidebar</a>
-						<ul class="second drop-down">
-							<li><a href="gallery-one-column.html" title="">1 Column</a></li>
-							<li><a href="gallery-two-column.html" title="">2 Column</a></li>
-						</ul> <!-- Double Drop Down Menu -->
-					</li><!-- Gallery With Right Sidebar -->
+					<li><a href="">Laboratorio de habilidades clinicas</a></li>
+					<li><a href="">Programa de fortalecimiento del autoestudio y aprendizaje (PFAA)</a></li>
+					<li class="double-drop"><a href="#" title="">Unidades especiales</a></li><!-- Gallery With Right Sidebar -->
+					<li><a href="">Programa de "Turismo cientifico"</a></li>
 				</ul><!-- Drop Down Menu -->
 			</li>
-			<li><a href="default.htm" title="">PAGES</a> 
+			<li><a href="default.htm" title="">ICS INTERNACIONAL</a> 
 				<ul class="drop-down">
-					<li class="double-drop"><a href="#" title="">Events</a>
-						<ul class="second drop-down">
-							<li><a href="recent-events.html" title="">Recent Events</a></li>
-							<li><a href="event-single-page.html" title="">Event Single Page</a></li>
-						</ul> <!--Double Drop Down Menu -->
-					</li>
-					<li><a href="doctors-timetable.html" title="">Doctor's Time Table</a></li>
-					<li class="double-drop"><a href="#" title="">Our Team</a>
-						<ul class="second drop-down">
-							<li><a href="our-team.html" title="">Our Team With Sidebar</a></li>
-							<li><a href="our-team-wos.html" title="">Our Team Without Sidebar</a></li>
-						</ul> <!-- Double Drop Down Menu -->
-					</li>
-					<li><a href="faqs.html" title="">FAQS</a></li>
-					<li><a href="404.html" title="">Error 404 page</a></li>
-					<li><a href="search-results.html" title="">Search Results Not Found</a></li>
-					<li><a href="search-results-found.html" title="">Search Results Found</a></li>
-					<li class="double-drop"><a href="#" title="">Services</a>
-						<ul class="second drop-down">
-							<li><a href="service.html" title="">Services With Sidebar</a></li>
-							<li><a href="service-wos.html" title="">Services Without Sidebar</a></li>
-						</ul> <!-- Double Drop Down Menu -->
-					</li>
+					<li class="double-drop"><a href="#" title="">Programa de Cooperaci&oacute;n en Educaci&oacute;n Superior Cuba - Nicaragua</a></li>
+					<li><a href="doctors-timetable.html" title="">Congreso Internacional de Educaci&oacute;n Superior "Universidad 2014"</a></li>
 				</ul><!-- Drop Down Menu -->
 			</li>
-			<li><a href="#" title="">FEATURES</a>
+			<li><a href="#" title="">ACERCA DE LA UPF</a>
 				<ul class="drop-down">
-					<li><a href="elements.html#alignment" title="">Image Alignment</a></li>
-					<li><a href="elements.html#buttons" title="">Buttons</a></li>
-					<li><a href="elements.html#alertboxes" title="">Alertboxes</a></li>
-					<li><a href="elements.html#skills" title="">Skills</a></li>
-					<li><a href="elements.html#tabs" title="">Tabs</a></li>
-					<li><a href="elements.html#toggles" title="">Toggles</a></li>
-					<li><a href="elements.html#pricing" title="">Pricing Table</a></li>
-					<li><a href="column-page.html" title="">Column Page</a></li>
+					<li><a href="elements.html#alignment" title="">Breve Historia</a></li>
+					<li><a href="elements.html#buttons" title="">Misi&oaccute;n, visi&oacute;n y objetivos estrategicos</a></li>
+					<li><a href="elements.html#alertboxes" title="">Organizaci&oacute;n y autoridades</a></li>
+					<li><a href="elements.html#skills" title="">Modelos institucionales</a></li>
+					<li><a href="elements.html#tabs" title="">Proyecci&oacute;n social</a></li>
+					<li><a href="elements.html#toggles" title="">Auto-evaluaci&oacute;n </a></li>
+					<li><a href="elements.html#pricing" title="">El pensamiento de Paulo Freire</a></li>
 				</ul><!-- Drop Down Menu -->
 			</li>
-			<li><a href="blog-page.html" title="">BLOG</a>
-				<ul class="drop-down">
-					<li><a href="single-post-image.html" title="">Single Post With Image</a></li>
-					<li><a href="single-post-video.html" title="">Single Post With Video</a></li>
-					<li><a href="single-post-gallery.html" title="">Single Post With Gallery</a></li>
-					<li><a href="single-post-slider.html" title="">Single Post With Slider</a></li>
-				</ul> <!--Double Drop Down Menu -->
-			</li>
-			<li><a href="about-us.html" title="">ABOUT US</a></li>
-			<li><a href="contact-us.html" title="">CONTACT US</a></li>
+			<li><a href="contact-us.html" title="">CONTACTENOS</a></li>
 		</ul>
 	</div><!-- Menu -->
 	<select class="ipadMenu">
@@ -205,9 +174,9 @@
     <p>Todos los derechos reservados @ 2014 <a href="http://www.ics.com.ni" title="">Instituto de Ciencias de la Investigaci&oacute;n (ICS)</a></p>
     <ul>
       <li><a href="/" title="">Inicio</a></li>
-      <li><a href="doctors-timetable.html" title=""></a></li>
-      <li><a href="service.html" title=""></a></li>
-      <li><a href="#" title=""></a></li>
+      <li><a href="doctors-timetable.html" title="">Preguntas frecuentes</a></li>
+      <li><a href="service.html" title="">Mapa del sitio</a></li>
+      <li><a href="#" title="">Contactenos</a></li>
     </ul>
   </div>
 </div><!-- Bottom Footer Strip -->

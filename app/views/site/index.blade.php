@@ -54,7 +54,7 @@
   </div>
 </div><!-- Slider Area -->
 
-<section id="simple-services" class="pattern4">
+<section id="simple-services" class="pattern3">
 	<div class="container">
 		<div>
 			<div class="service-box span4">
@@ -95,6 +95,231 @@
 			</div>	
 		</div>
 	</div>
+</section>
+
+<section class="box-recent-news">
+	<div class="container">
+		<div>
+			<div class="recent-posts">
+				<div class="main-title first">
+				<h3>&Uacute;ltimas <span>Noticias</span></h3>
+				</div>
+			</div>
+
+			<div id="slider3">
+				<a class="buttons next" href="#"></a>
+				<a class="buttons prev" href="#"></a>
+				<div class="viewport">
+					<ul class="overview">
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post1.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH PRODUCTS</a></h6>
+							<p>Vitamins and Supplements</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post2.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">SLIDESHOWS</a></h6>
+							<p>How We Feel About Beauty</p>
+						</li>
+
+
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post3.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH & WELLNESS</a></h6>
+							<p>People Who Are Changing he Face of Yoga</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post4.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH PRODUCTS</a></h6>
+							<p>Friendly Foods That Pack a Punch</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post5.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH & WELLNESS</a></h6>
+							<p>Pad Kitchen Must-Haves</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post6.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH PRODUCTS</a></h6>
+							<p>The 2013 Embassy Chef Challenge</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post1.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH PRODUCTS</a></h6>
+							<p>Vitamins and Supplements</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post2.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">SLIDESHOWS</a></h6>
+							<p>How We Feel About Beauty</p>
+						</li>
+						<li>
+							<div class="post-img">
+								<img src="img/resource/recent-post3.jpg" alt="" />
+								<a class="recent-post-link" href="#" title=""><i class="theme-icon chain"></i></a>
+							</div>
+							<h6><a href="#" title="">HEALTH & WELLNESS</a></h6>
+							<p>People Who Are Changing he Face of Yoga</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section class="boxes">
+	<div class="container">
+
+    <div class="boxes-left">
+      <div class="sidebox-head">
+        <h2>EVENTOS RECIENTES<span></span></h2>
+      </div>
+      <div id="events" class="tab-pane fade in">
+        <div class="tabbable tabs-below events">
+          <div class="tab-content">
+            <div id="event1" class="tab-pane fade active in">
+              <div class="event-img"> 
+                <a title="" href="http://player.vimeo.com/video/33741794" class="html5lightbox">
+                  <span class="play-icon"></span>
+                </a>
+                <img src="img/resource/events-img1.jpg" alt="" /> 
+              </div>
+              <div class="post-details">
+                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
+				<div class="post-meta"> 
+					<span>                 
+						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
+						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
+					</span>
+				</div>
+                <article>
+                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
+                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
+                </article>
+              </div>
+            </div><!-- First Event -->
+            <div id="event2" class="tab-pane fade in">
+              <div class="event-img"> 
+                <img src="img/resource/events-img2.jpg" alt="" /> 
+              </div>
+              <div class="post-details">
+                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
+				<div class="post-meta"> 
+					<span>                 
+						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
+						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
+					</span>
+				</div>
+                <article>
+                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
+                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
+                </article>
+              </div>
+            </div><!-- Second Event -->
+            <div id="event3" class="tab-pane fade in">
+              <div class="event-img"> 
+                <img src="img/resource/events-img3.jpg" alt="" /> 
+                <a title="" href="http://player.vimeo.com/video/33741794" class="html5lightbox">
+                  <span class="play-icon"></span>
+                </a>
+              </div>
+              <div class="post-details">
+                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
+				<div class="post-meta"> 
+					<span>                 
+						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
+						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
+					</span>
+				</div>
+                <article>
+                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
+                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
+                </article>
+              </div>
+            </div><!-- Third Event -->
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="active"> 
+              <a data-toggle="tab" href="#event1"> 
+                <span class="events-thumb">
+					<img src="img/resource/events1.jpg" alt="" /> 
+					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
+                </span>
+              </a>
+            </li>
+            <li class=""> 
+              <a data-toggle="tab" href="#event2"> 
+                <span class="events-thumb">
+					<img src="img/resource/events2.jpg" alt="" /> 
+					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
+                </span>
+              </a>
+            </li>
+            <li class=""> 
+              <a data-toggle="tab" href="#event3"> 
+                <span class="events-thumb">
+					<img src="img/resource/events3.jpg" alt="" /> 
+					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
+                </span>
+              </a>
+            </li>
+          </ul> <!-- Event Selector -->
+        </div>
+      </div><!-- Recent Events Section -->  
+    </div>  	
+	
+    <div class="boxes-right">
+      <div class="sidebox-head">
+        <h2>HAPPY CUSTOMERS<span>Satisfied People With Us</span></h2>
+      </div>    
+			
+      <div class="clients">
+      	<p><i class="theme-icon comma-start"></i>Said multiply togeth were lande d you. The green said form are have give i replenish. Moved made living have wose called.<i class="theme-icon comma-end"></i></p>
+        <div class="abt-client">
+          	<span>3 days Ago</span>
+           	<p>Michel</p>
+			<i>Coder Designer</i>
+        </div>
+        <img src="img/resource/client1.jpg" alt="" />
+      </div><!-- Satisfied Client -->
+
+      <div class="clients">
+      	<p><i class="theme-icon comma-start"></i>Said multiply togeth were lande d you. The green said form are have give i replenish. Moved made living have wose called.<i class="theme-icon comma-end"></i></p>
+        <div class="abt-client">
+          	<span>3 days Ago</span>
+           	<p>Michel</p>
+			<i>Coder Designer</i>
+        </div>
+        <img src="img/resource/client2.jpg" alt="" />
+      </div><!-- Satisfied Client -->
+
+    </div>
+    
+  </div>
 </section>
 
 <section id="serve" class="pattern2">
@@ -745,136 +970,7 @@
 	</div>
 </section>
 
-<section class="boxes">
-	<div class="container">
 
-    <div class="boxes-left">
-      <div class="sidebox-head">
-        <h2>RECENTLY OCCURING SIGNIFICANT EVENTS LIST<span>Particular Event Details</span></h2>
-      </div>
-      <div id="events" class="tab-pane fade in">
-        <div class="tabbable tabs-below events">
-          <div class="tab-content">
-            <div id="event1" class="tab-pane fade active in">
-              <div class="event-img"> 
-                <a title="" href="http://player.vimeo.com/video/33741794" class="html5lightbox">
-                  <span class="play-icon"></span>
-                </a>
-                <img src="img/resource/events-img1.jpg" alt="" /> 
-              </div>
-              <div class="post-details">
-                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
-				<div class="post-meta"> 
-					<span>                 
-						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
-						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
-					</span>
-				</div>
-                <article>
-                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
-                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
-                </article>
-              </div>
-            </div><!-- First Event -->
-            <div id="event2" class="tab-pane fade in">
-              <div class="event-img"> 
-                <img src="img/resource/events-img2.jpg" alt="" /> 
-              </div>
-              <div class="post-details">
-                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
-				<div class="post-meta"> 
-					<span>                 
-						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
-						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
-					</span>
-				</div>
-                <article>
-                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
-                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
-                </article>
-              </div>
-            </div><!-- Second Event -->
-            <div id="event3" class="tab-pane fade in">
-              <div class="event-img"> 
-                <img src="img/resource/events-img3.jpg" alt="" /> 
-                <a title="" href="http://player.vimeo.com/video/33741794" class="html5lightbox">
-                  <span class="play-icon"></span>
-                </a>
-              </div>
-              <div class="post-details">
-                <h2><a href="event-single-page.html" title="">Powerful ideas, technical creativity</a></h2>
-				<div class="post-meta"> 
-					<span>                 
-						<span class="published-date"><i class="theme-icon calender"></i><span>May, 3, 2013</span></span>  
-						<span class="post-time"><i class="theme-icon clock"></i>10:48 pm</span>
-					</span>
-				</div>
-                <article>
-                  <p>Nam ultricies dolor elit varius sceisque. leonio estibulum in lacus lis pretium feugiat nonwin ed elit. Duis pretiurna Nam ultricies dolor elit varius sceisque. vgw estibulum in lacus listion pretium feugiat nonwi lacus lis pretiu feugiat nonwin ed elit</p>
-                  <a class="readmore" href="event-single-page.html" title="">Read More</a> 
-                </article>
-              </div>
-            </div><!-- Third Event -->
-          </div>
-          <ul class="nav nav-tabs">
-            <li class="active"> 
-              <a data-toggle="tab" href="#event1"> 
-                <span class="events-thumb">
-					<img src="img/resource/events1.jpg" alt="" /> 
-					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
-                </span>
-              </a>
-            </li>
-            <li class=""> 
-              <a data-toggle="tab" href="#event2"> 
-                <span class="events-thumb">
-					<img src="img/resource/events2.jpg" alt="" /> 
-					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
-                </span>
-              </a>
-            </li>
-            <li class=""> 
-              <a data-toggle="tab" href="#event3"> 
-                <span class="events-thumb">
-					<img src="img/resource/events3.jpg" alt="" /> 
-					<h4>Chottani Mallows Taleon<span>By Machil Goume</span></h4>
-                </span>
-              </a>
-            </li>
-          </ul> <!-- Event Selector -->
-        </div>
-      </div><!-- Recent Events Section -->  
-    </div>  	
-	
-    <div class="boxes-right">
-      <div class="sidebox-head">
-        <h2>HAPPY CUSTOMERS<span>Satisfied People With Us</span></h2>
-      </div>    
-			
-      <div class="clients">
-      	<p><i class="theme-icon comma-start"></i>Said multiply togeth were lande d you. The green said form are have give i replenish. Moved made living have wose called.<i class="theme-icon comma-end"></i></p>
-        <div class="abt-client">
-          	<span>3 days Ago</span>
-           	<p>Michel</p>
-			<i>Coder Designer</i>
-        </div>
-        <img src="img/resource/client1.jpg" alt="" />
-      </div><!-- Satisfied Client -->
-
-      <div class="clients">
-      	<p><i class="theme-icon comma-start"></i>Said multiply togeth were lande d you. The green said form are have give i replenish. Moved made living have wose called.<i class="theme-icon comma-end"></i></p>
-        <div class="abt-client">
-          	<span>3 days Ago</span>
-           	<p>Michel</p>
-			<i>Coder Designer</i>
-        </div>
-        <img src="img/resource/client2.jpg" alt="" />
-      </div><!-- Satisfied Client -->
-
-    </div>
-    
-  </div>
-</section>
 
 </div>
 

@@ -480,6 +480,12 @@ section {
 	background-attachment:fixed;
 }
 
+.box-recent-news {
+	padding:55px 0 10px;
+	border-bottom:1px solid #BCBCBC;
+	overflow:hidden;
+}
+
 .boxes {
 	padding:55px 0 60px;
 	border-bottom:1px solid #BCBCBC;
@@ -2175,7 +2181,6 @@ header {
 }
 
 .pattern4 {
-	
 }
 
 #slider2 .overview li {
@@ -7792,7 +7797,7 @@ left:0 top:0;
 	z-index:10;
 }
 .camera_prevThumbs div {
-	background:url(../images/camera_skins.png) no-repeat -160px 0;
+	background:url(../img/camera_skins.png) no-repeat -160px 0;
 	display:block;
 	height:40px;
 	margin-top:-20px;
@@ -7811,7 +7816,7 @@ left:0 top:0;
 	z-index:10;
 }
 .camera_nextThumbs div {
-	background:url(../images/camera_skins.png) no-repeat -190px 0;
+	background:url(../img/camera_skins.png) no-repeat -190px 0;
 	display:block;
 	height:40px;
 	margin-top:-20px;
@@ -7913,7 +7918,7 @@ left:0 top:0;
 }
 
 .camera_next > span {
-	background:url(../images/camera_skins.png) no-repeat -40px 0;
+	background:url(../img/camera_skins.png) no-repeat -40px 0;
 	display:block;
 	height:60px;
 	width:80px;
