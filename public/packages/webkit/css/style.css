@@ -1017,7 +1017,11 @@ section {
 	text-align:center;
 }
 
-
+#main-links {
+	border-bottom: 1px solid #BCBCBC;
+    padding-bottom: 20px 0 57px 0;
+	height: 100%;
+}
 
 /*** Simple Services Styles ***/
 #simple-services {

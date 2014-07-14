@@ -20,7 +20,7 @@
       
 	    <!-- Page heading -->
 	    <div class="page-head">
-	      <h2 class="pull-left">Crear nuevo &aacute;rticulo</h2>
+	      <h2 class="pull-left">Crear nueva P&aacute;gina</h2>
         <div class="clearfix"></div>
         <!-- Breadcrumb -->
         <div class="bread-crumb">
@@ -58,19 +58,9 @@
                     
                     <div class="form-group">
                       <label for="titulo">T&iacute;tulo</label>
-                      <input type="text" id="titulo" name="titulo" class="validate[required] form-control placeholder col-lg-8" placeholder="Ingrese el titulo">
+                      <input type="text" id="pagina" name="pagina" class="validate[required] form-control placeholder col-lg-8" placeholder="Ingrese el titulo de la pagina">
                     </div>
-                    <br/>
-                    <div class="textarea">
-                      <label for="introduccion">Intro</label>
-                      <input type="text" id="introduccion" name="introduccion" class="form-control placeholder col-lg-8" placeholder="Ingrese la introduccion del articulo">
-                    </div>
-
-                    <div class="form-group">
-                      <label for="resumen">Resumen</label>
-                      <textarea name="resumen" id="resumen" class="form-control col-lg-12"></textarea>
-                    </div>
-                    
+                    <br><br> 
                     <div class="clearfix"></div>
                     <button class="btn btn-default"><i class="fa fa-camera"></i> Agregar multimedia</button>
                     <div class="text-area">
@@ -154,26 +144,6 @@
                       <h6>Tags</h6>
                       <hr />
                       -->
-                      <div class="form-group">
-                        <label for="idCategoria">Categor&iacute;a</label>
-                        <select name="idCategoria" id="idCategoria" class="form-control">
-	                    @if ($categories)
-		                    @foreach($categories as $category => $categoryInfo)
-	                          <option value="{{ $categoryInfo->IdCategoria }}">{{ $categoryInfo->Categoria }}</option>
-		                    @endforeach
-		                  @else
-	                        <option value="0">No hay categorias</option> 
-		                @endif
-	                    </select>
-                      </div>
-                      
-                      <div class="form-group">
-                      	<label for="posicion">Ubicaci&oacute;n</label>
-                      	<select name="posicion" id="posicion" class="form-control">
-                      		<option value="slider">Slideshow</option>
-                      	</select>
-                      </div>
-
                       <div class="form-group">
                         <label for="estado">Estado</label>
                         <select name="estado" id="estado" class="form-control">

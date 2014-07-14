@@ -54,7 +54,9 @@
   </div>
 </div><!-- Slider Area -->
 
-<section id="simple-services" class="pattern3">
+<div class="clearfix"></div>
+
+<section id="simple-services">
 	<div class="container">
 		<div>
 			<div class="service-box span4">
