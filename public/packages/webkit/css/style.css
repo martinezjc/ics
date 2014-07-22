@@ -1034,6 +1034,10 @@ section {
 	color: #3798DC;
 }
 
+#simple-services ul li a:hover {
+    text-decoration: underline;
+}
+
 #simple-services .container > div {
     margin-left:-30px;
 }
@@ -1289,9 +1293,17 @@ section {
 }
 .logo {
 	float:left;
-	margin-top:20px;
+	margin-top:15px;
 	position:relative;
 	z-index:1;
+}
+
+.logo-title {
+	position: relative;
+    font-weight: bold;
+    font-family: "open sans";
+    color: #3798DC;
+    right: 50px;
 }
 
 header select {

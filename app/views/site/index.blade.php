@@ -7,7 +7,7 @@
   	<div data-thumb="img/resource/banner1-thumb.jpg" data-src="img/resource/banner1.jpg">
 	<div class="camera_caption slide1 fadeFromRight"> 
 		<div class="slide1-style">
-			<span><img src="img/resource/slide1-logo.png" alt="" />The <span>Perfect Template</span> with</span>
+			<!-- <span><img src="img/resource/slide1-logo.png" alt="" />The <span>Perfect Template</span> with</span> -->
 			<h3>Responsive and <span>Flexible</span></h3>
 		</div>
 	</div>
@@ -62,8 +62,8 @@
 			<div class="service-box span4">
               <ul>
               	<li><h2><i class="fa fa-info-circle"></i> Acerca del ICS</h2></li>
-              	<li>Misi&oacute;n, visi&oacute;n y objetivos</li>
-              	<li>Historia</li>
+              	<li><a href="{{ action('PageController@showPage', array('slug' => 'mision-vision-y-objetivos' ) ); }}">Misi&oacute;n, visi&oacute;n y objetivos</a></li>
+              	<li><a href="{{ action('PageController@showPage', array('slug' => 'historia' ) ); }}">Historia</a></li>
               	<li>Organizaci&oacute;n y liderazgo</li>
               	<li>Pol&iacute;ticas y normativas</li>
               	<li>D&oacute;nde encontrarnos</li>

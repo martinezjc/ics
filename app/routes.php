@@ -14,6 +14,7 @@
 Route::get('/', 'HomeController@showHome');
 Route::get('/articulo/{slug}', 'ArticleController@showArticle');
 Route::get('/{slug}', 'PageController@showPage');
+Route::get('/etiquetas/{tag}', 'TagController@show');
 
 Route::get('admin/login', 'AccountController@showLogin');
 
@@ -32,3 +33,4 @@ Route::get('admin/paginas/edit/{id}', 'PageController@edit');
 
 Route::get('admin/paginas/savePage', 'PageController@save');
 Route::get('admin/paginas/edit/updatePage', 'PageController@update');
+Route::get('admin/paginas/deletePage/{idPage}', 'PageController@delete');

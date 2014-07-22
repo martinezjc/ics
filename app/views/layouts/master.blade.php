@@ -34,12 +34,13 @@
 <header>
 	<div class="container">
   	<div class="logo">
-    	<a href="index.html" title=""><img src="img/resource/logo-ics.png" alt="" /></a>
+    	<a href="index.html" title=""><img src="img/resource/logo-ics.png" width="130" alt="Logo Instituto de Ciencias de la Salud ICS" /></a>
+    	<br/><p class="logo-title">Instituto de Ciencias de la Salud</p>
     </div><!-- Logo --> 
     
 	<div id="menu">
 		<ul>
-			<li><a href="/" title="">INICIO</a></li>
+			<li><a href="{{ action('HomeController@showHome'); }}" title="">INICIO</a></li>
 			<li><a href="#" title="">VINCULOS CON LA COMUNIDAD</a>
 				<ul class="drop-down">
 					<li><a href="gallery-two-column-wos.html" title="">Clinica universitaria integral</a></li>
@@ -72,7 +73,7 @@
 					<li><a href="elements.html#alertboxes" title="">Organizaci&oacute;n y autoridades</a></li>
 					<li><a href="elements.html#skills" title="">Modelos institucionales</a></li>
 					<li><a href="elements.html#tabs" title="">Proyecci&oacute;n social</a></li>
-					<li><a href="elements.html#toggles" title="">Auto-evaluaci&oacute;n </a></li>
+					<li><a href="elements.html#toggles" title="">Auto-evaluaci&oacute;n</a></li>
 					<li><a href="elements.html#pricing" title="">El pensamiento de Paulo Freire</a></li>
 				</ul><!-- Drop Down Menu -->
 			</li>
@@ -80,40 +81,37 @@
 		</ul>
 	</div><!-- Menu -->
 	<select class="ipadMenu">
-		<option value="index.html">home</option>
-		<option value="index2.html">home2</option>
-		<option value="gallery-two-column-wos.html">Gallery Two Column Without Sidebar</option>
-		<option value="gallery-three-column-wos.html">Gallery Three Column Without Sidebar</option>
-		<option value="gallery-four-column-wos.html">Gallery Four Column Without Sidebar</option>
-		<option value="gallery-one-column-left-sidebar.html">Gallery One Column With Left Sidebar</option>
-		<option value="gallery-two-column-left-sidebar.html">Gallery Two Column With Left Sidebar</option>
-		<option value="gallery-one-column.html">Gallery One Column With Right Sidebar</option>
-		<option value="gallery-two-column.html">Gallery Two Column With Right Sidebar</option>
-		<option value="recent-events.html">Recent Events</option>
-		<option value="event-single-page.html">Single Event Page</option>
-		<option value="doctors-timetable.html">Doctor's Timetable</option>
-		<option value="our-team.html">Our Team With Sidebar</option>
-		<option value="our-team-wos.html">Our Team Without Sidebar</option>
-		<option value="faqs.html">Faqs</option>
-		<option value="404.html">Error404</option>
-		<option value="search-results.html">Search Result Not Found</option>
-		<option value="search-results-found.html">Search Result Found</option>
-		<option value="service.html">Service With Sidebar</option>
-		<option value="service-wos.html">Service Without Sidebar</option>
-		<option value="elements.html">Features</option>
-		<option value="column-page.html">Column Page</option>
-		<option value="blog-page.html">Blog</option>
-		<option value="single-post-image.html">Single Page With Image</option>
-		<option value="single-post-video.html">Single Page With Video</option>
-		<option value="single-post-gallery.html">Single Page With Gallery</option>
-		<option value="about-us.html">About Us</option>
-		<option value="contact-us.html">Contact Us</option>
+		<option value="{{ action('HomeController@showHome'); }}">INICIO</option>
+		<option value="">VINCULOS CON LA COMUNIDAD</option>
+		<option value="">Clinica universitaria integral</option>
+		<option value="">Clinica m&oacute;vil comunitaria</option>
+		<option value="">Programas de promoci&oacute;n y educaci&oacute;n para la salud</option>
+		<option value="">Social y seguridad en el trabajo</option>
+		<option value="">Salud y bienestar en la tercera edad</option>
+		<option value="">Salud y actividad f&iacute;sica</option>
+		<option value="">Salud y discapacidad</option>
+		<option value="">Club de vida saludable</option>
+		<option value="">Laboratorio de habilidades clinicas</option>
+		<option value="">Programa de fortalecimiento del autoestudio y aprendizaje (PFAA)</option>
+		<option value="">Unidades especiales</option>
+		<option value="">Programa de "Turismo cientifico"</option>
+		<option value="">ICS INTERNACIONAL</option>
+		<option value="">Programa de Cooperaci&oacute;n en Educaci&oacute;n Superior Cuba - Nicaragua</option>
+		<option value="">Congreso Internacional de Educaci&oacute;n Superior "Universidad 2014"</option>
+		<option value="">ACERCA DE LA UPF</option>
+		<option value="">Breve Historia</option>
+		<option value="">Misi&oaccute;n, visi&oacute;n y objetivos estrategicos</option>
+		<option value="">Organizaci&oacute;n y autoridades</option>
+		<option value="">Modelos institucionales</option>
+		<option value="">Proyecci&oacute;n social</option>
+		<option value="">Auto-evaluaci&oacute;n</option>
+		<option value="">El pensamiento de Paulo Freire</option>
+		<option value="">CONTACTENOS</option>
 	</select><!-- Select Navigation On Responsive Version -->
   </div>
 </header><!-- Header -->
 
 @yield('content')
-
 
 <footer>
   <div class="container">
@@ -130,14 +128,14 @@
       </div>
     </div> <!-- Follow Us -->
     <div class="widget">
-      <h3 class="footer-title">D&oacute;nde nos encontramos</h3>
+      <h3 class="footer-title">D&oacute;nde encontrarnos</h3>
       <div class="location">
         <!-- <iframe width="100" height="150" src="http://maps.google.com/@ie=UTF8&ll=10.487812,-22.675781&spn=45.061776,86.572266&t=m&z=4&output=embed"></iframe> -->
         <span class="map-shadow"></span>
         <ul>
-          <li><i class="theme-icon email"></i><span class="source">by e-mail;</span> <span class="detail">info@yoursite.com</span> </li>
-          <li><i class="theme-icon phone"></i><span class="source">by phone;</span> <span class="detail">+900-78601</span> </li>
-          <li><i class="theme-icon home"></i><span class="source">Address;</span> <span class="detail">123, Seward Street, Os kla Home City, USA</span> </li>
+          <li><i class="theme-icon email"></i><span class="source">E-mail:</span> <span class="detail">ics@upf.edu.ni</span> </li>
+          <li><i class="theme-icon phone"></i><span class="source">Telefono;</span> <span class="detail">+900-78601</span> </li>
+          <li><i class="theme-icon home"></i><span class="source">Direcci&oacute;n:</span> <span class="detail">Lorem ipsum text</span> </li>
         </ul>
       </div>
     </div> <!-- Location -->

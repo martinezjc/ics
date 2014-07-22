@@ -34,15 +34,8 @@ class PageController extends BaseController
 
 	public function save()
 	{
-		$page = Input::get('pagina');
-		$slug = str_replace(' ', '-', trim(Input::get('pagina')));
-		$slug = str_replace(',', '-', $slug);
-		$slug = str_replace('.', '', $slug);
-		$slug = str_replace("'", "", $slug);
-        $slug = str_replace('"', '', $slug);
-        $slug = str_replace('?', '', $slug);
-        $slug = str_replace('!', '', $slug);
-        $slug = str_replace('%', 'porciento', $slug);
+		$pagina = Input::get('pagina');
+        $slug = $this->setSlug($pagina);
         $texto = Input::get('texto');
         $estado = Input::get('estado');
 		$etiquetas = Input::get('etiquetas');
@@ -52,9 +45,87 @@ class PageController extends BaseController
 		              ->insertGetId( array('Pagina' => $pagina,
 		              	                   'slug' => $slug,
 		              	                   'texto' => $texto,
+		              	                   'Estado' => $estado,
 		              	                   'Etiquetas' => $etiquetas,
 		              	                   'IdUsuario' => $idUsuario) );
-		return $insertedId ? '1' : '0';
+		return $insertedId ? $insertedId : '0';
+	}
+
+	private function setSlug($text)
+	{
+		// replace non letter or digits by -
+	    $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
+
+	    // trim
+	    $text = trim($text, '-');
+
+	    // transliterate
+	    $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+
+	    // lowercase
+	    $text = strtolower($text);
+
+	    // remove unwanted characters
+	    $text = preg_replace('~[^-\w]+~', '', $text);
+        
+        //$text = str_replace(' ', '-', trim(Input::get('pagina')));
+		$text = str_replace(',', '-', $text);
+		$text = str_replace('.', '', $text);
+		$text = str_replace("'", "", $text);
+        $text = str_replace('"', '', $text);
+        $text = str_replace('?', '', $text);
+        $text = str_replace('!', '', $text);
+        $text = str_replace('¿', '', $text);
+        $text = str_replace('%', 'porciento', $text);
+
+        $space_chars = array(
+		  " ", // space
+		  "…", // ellipsis
+		  "–", // en dash
+		  "—", // em dash
+		  "/", // slash
+		  "\\", // backslash
+		  ":", // colon
+		  ";", // semi-colon
+		  ".", // period
+		  "+", // plus sign
+		  "#", // pound sign
+		  "~", // tilde
+		  "_", // underscore
+		  "|", // pipe
+		 );
+		 
+		foreach($space_chars as $char){
+		    $text = str_replace($char, '-', $text); // Change spaces to dashes
+		}
+
+	    if (empty($text))
+	    {
+	        return 'n-a';
+	    }
+
+	    return strtolower($text);
+	}
+
+	public function edit($idPage)
+	{
+		$page = DB::table('pagina')
+		         ->where('IdPagina', '=', $idPage)
+		         ->first();
+
+		return View::make('admin.page.edit')
+		             ->with('title', 'Editar pagina')
+		             ->with('page', $page);
+	}
+
+	public function delete($idPage)
+	{
+		$deleteResult = DB::table('pagina')
+		                    ->where('IdPagina', '=', $idPage)
+		                    ->delete();
+
+	    if ( $deleteResult )
+	    	return Redirect::to('admin/paginas');
 	}
 }
 ?>

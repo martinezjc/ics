@@ -20,14 +20,14 @@
       
 	    <!-- Page heading -->
 	    <div class="page-head">
-	      <h2 class="pull-left">Crear nueva P&aacute;gina</h2>
+	      <h2 class="pull-left">Editar P&aacute;gina</h2>
         <div class="clearfix"></div>
         <!-- Breadcrumb -->
         <div class="bread-crumb">
           <a href="index.html"><i class="fa fa-home"></i> Panel</a> 
           <!-- Divider -->
           <span class="divider">/</span> 
-          <a href="#" class="bread-current">Crear nueva p&aacute;gina</a>
+          <a href="#" class="bread-current">Editar p&aacute;gina</a>
         </div>
         
         <div class="clearfix"></div>
@@ -58,14 +58,14 @@
                     
                     <div class="form-group">
                       <label for="titulo">T&iacute;tulo</label>
-                      <input type="text" id="pagina" name="pagina" class="validate[required] form-control placeholder col-lg-8" placeholder="Ingrese el titulo de la pagina">
+                      <input type="text" id="pagina" name="pagina" class="form-control placeholder col-lg-8" value="{{ htmlspecialchars($page->Pagina, ENT_QUOTES) }}" placeholder="Ingrese el titulo de la pagina">
                     </div>
                     <br><br> 
                     <div class="clearfix"></div>
                     <button class="btn btn-default"><i class="fa fa-camera"></i> Agregar multimedia</button>
                     <div class="text-area">
                         <!-- Add the "cleditor" to textarea to add CLeditor -->
-                        <textarea class="cleditor" name="texto" id="texto"></textarea>
+                        <textarea class="cleditor" name="texto" id="texto">{{ $page->Texto }}</textarea>
 
                     </div>
 
@@ -147,21 +147,20 @@
                       <div class="form-group">
                         <label for="estado">Estado</label>
                         <select name="estado" id="estado" class="form-control">
-                          <option value="B">Borrador</option>
-                          <option value="P">Publicado</option>
+                          <option value="B" @if( $page->Estado == 'B') selected @endif >Borrador</option>
+                          <option value="P" @if( $page->Estado == 'P' ) selected @endif >Publicado</option>
                         </select>
                       </div>
                       
                       <div class="form-group">
                         <label for="tags">Etiquetas</label>
-                        <input class="form-control col-lg-12" id="tags" name="tags" type="text" placeholder="Etiquetas">
+                        <input class="form-control col-lg-12" id="tags" name="tags" type="text" value="{{ $page->Etiquetas }}" placeholder="Etiquetas">
                       </div>
 					            <div class="buttons">
-                        <button id="savePage" class="btn btn-primary">Guardar</button> 
-                        <button class="btn btn-default">Cancelar</button>
-                        <!-- <button id="deleteArticle" class="btn btn-danger">Eliminar</button> -->
-					            </div>
-
+                        <button id="savePage" class="btn btn-primary">Actualizar</button> 
+                        <a class="btn btn-danger" href="{{ action('PageController@delete', array('idPage' => $page->IdPagina )); }}">Eliminar</a>
+					              <a class="btn btn-default" href="{{ action('PageController@index'); }}">Cancelar</a>
+                      </div>
                   </div>
                 </div>
               </div>  

@@ -79,12 +79,12 @@
                             <td>{{ ++ $page }}</td>
                             <td>{{ $pageInfo->Pagina }}</td>
                             <td>{{ $pageInfo->FechaCreacion }}</td>
-                            <td><span class="label label-success">Publicado</span></td>
+                            <td><span @if( $pageInfo->Estado == 'B' ) class="label label-danger" @else class="label label-success" @endif >@if( $pageInfo->Estado == 'B' ) Borrador @else Publicado @endif</span></td>
                             <td>
 
                                 <button class="btn btn-xs btn-success"><i class="fa fa-check"></i> </button>
                                 <a class="btn btn-xs btn-warning" href="{{ action('PageController@edit', array('id' => $pageInfo->IdPagina) ); }}"><i class="fa fa-pencil"></i> </a>
-                                <button class="btn btn-xs btn-danger"><i class="fa fa-times"></i> </button>
+                                <a class="btn btn-xs btn-danger" href="{{ action('PageController@delete', array('idPage' => $pageInfo->IdPagina )); }}"><i class="fa fa-times"></i> </a>
                             
                             </td>
                           </tr>
@@ -545,6 +545,9 @@
 {{ HTML::script('packages/webkit/js/admin/filter.js'); }} <!-- Filter for support page -->
 {{ HTML::script('packages/webkit/js/admin/custom.js'); }} <!-- Custom codes -->
 {{ HTML::script('packages/webkit/js/admin/charts.js'); }} <!-- Charts & Graphs -->
+{{ HTML::script('packages/webkit/js/helper.js'); }}
+{{ HTML::script('packages/webkit/js/page.js'); }}
+
 
 <script>
 $(document).ready(function() {
